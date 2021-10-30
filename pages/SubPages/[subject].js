@@ -5,7 +5,7 @@ import Footer from '../../components/Footer'
 import SubCards from '../../components/SubCards'
 import styles from '../../styles/subject.module.css'
 
-const subject = () => {
+const Subject = () => {
 
     const router = useRouter();
     const subName = router.query.subject;
@@ -22,4 +22,4 @@ const subject = () => {
     )
 }
 
-export default subject
+export default Subject
