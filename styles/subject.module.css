@@ -1,0 +1,52 @@
+
+.quote{
+    display:flex; 
+    justify-content: center;
+    margin-top:2rem;
+    margin-bottom:5rem;
+    font-size: 3rem;
+    padding: 0 10rem;
+    text-align:center;
+}
+
+.quoteText{
+    margin:0;
+    background: linear-gradient(to right, #7873f5 0%, #ff6ec4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subdiv{
+    display:flex;
+    justify-content: center;
+    align-items:baseline;
+    margin-top:5rem;
+    text-align:center;
+}
+
+.subject{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin:0;
+    background: linear-gradient(to right, #7873f5 0%, #ff6ec4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media(max-width:900px)
+{
+    .quote{
+        padding: 0 5rem;
+    }
+}
+
+@media(max-width:500px)
+{
+    .quote{
+        padding: 0 2rem;
+    }
+    .subject{
+        font-size: 2.5rem;
+    }
+}
+
