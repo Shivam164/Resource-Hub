@@ -19,16 +19,19 @@
     margin: 0.5rem 0;
     font-family: 'Catamaran', sans-serif;
     font-weight:700;
+    color:#FEFBF3;
 }
 
 .card .card_text{
     font-size:2rem;
     font-weight: 400;
     font-family: 'Catamaran', sans-serif;
+    color:#FEFBF3;
 }
 
 .card .icon{
     font-size:5rem;
+    color:#FEFBF3;
 }
 
 .quote{
@@ -66,13 +69,13 @@
 }
 
 .card_btn{
-    font-size:1.5rem;
-    color:#7873f5;
+    font-size:1.5rem !important;
+    color:#7873f5 !important;
     /* border:2px solid #7873f5; */
-    background-color:#FEFBF3;
-    text-transform:none;
-    margin-top:1.5rem;
-    margin-bottom:0.5rem;
+    background-color:#FEFBF3 !important;
+    text-transform:none !important;
+    margin-top:1.5rem !important;
+    margin-bottom:0.5rem !important;
 }
 
 .card_btn:hover{

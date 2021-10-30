@@ -56,12 +56,12 @@
 }
 
 .card_btn{
-    font-size:1.5rem;
-    color:#7873f5;
+    font-size:1.5rem !important;
+    color:#7873f5 !important;
     /* border:2px solid #7873f5; */
-    background-color:#FEFBF3;
-    text-transform:none;
-    margin-bottom:1rem;
+    background-color:#FEFBF3 !important;
+    text-transform:none !important;
+    margin-bottom:1rem !important;
 }
 
 .card_btn:hover{
