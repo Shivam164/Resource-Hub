@@ -12,10 +12,10 @@ const Navbar = () => {
          
          <MobileNav  />
          <ul className={styles.navlist}>
-           <li><ActiveLink exact href="/" className={styles.navlink}>Home</ActiveLink></li>
-           <li><ActiveLink exact href="/Search" className={styles.navlink}>Search</ActiveLink></li>
-           <li><ActiveLink exact href="/About" className={styles.navlink}>About</ActiveLink></li>
-           <li><ActiveLink exact href="#" className={styles.navlink}>Contact</ActiveLink></li>
+            <ActiveLink exact href="/" className={styles.navlink}><li>Home</li></ActiveLink>
+            <ActiveLink exact href="/Search" className={styles.navlink}><li>Search</li></ActiveLink>
+            <ActiveLink exact href="/About" className={styles.navlink}><li>About</li></ActiveLink>
+            <ActiveLink exact href="#" className={styles.navlink}><li>Contact</li></ActiveLink>
          </ul>
          
             

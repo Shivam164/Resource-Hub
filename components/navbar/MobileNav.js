@@ -24,13 +24,13 @@ const MobileNav = () => {
         transition={{ duration:0.4}}  // type:"spring", stiffness:"80",
         className={styles.navlist}
         >
-        <li><ActiveLink exact href="/" className={styles.navlink}>Home</ActiveLink></li>
+        <ActiveLink exact href="/" className={styles.navlink}><li>Home</li></ActiveLink>
         <hr className={styles.lineBreak} />
-        <li><ActiveLink exact href="/Search" className={styles.navlink}>Search</ActiveLink></li>
+        <ActiveLink exact href="/Search" className={styles.navlink}><li>Search</li></ActiveLink>
         <hr className={styles.lineBreak} />
-        <li><ActiveLink exact href="/About" className={styles.navlink}>About</ActiveLink></li>
+        <ActiveLink exact href="/About" className={styles.navlink}><li>About</li></ActiveLink>
         <hr className={styles.lineBreak} />
-        <li><ActiveLink exact href="#" className={styles.navlink}>Contact</ActiveLink></li>
+        <ActiveLink exact href="#" className={styles.navlink}><li>Contact</li></ActiveLink>
         <li className={styles.list_foot}>Resource Hub ❤</li>
         </motion.ul> 
         </>
