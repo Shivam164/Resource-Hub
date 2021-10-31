@@ -19,7 +19,7 @@
 }
 
 .Icon{
-    font-size:3rem;
+    font-size:3rem !important;
     color:#7873f5;
     margin-left: -4rem;
 }
