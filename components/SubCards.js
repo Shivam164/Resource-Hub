@@ -9,6 +9,7 @@ import Substyles from '../styles/subject.module.css'
 import Quotes from './Quotes'
 import {useRouter} from 'next/router'
 import {NotesCard, BooksCard, VideoCard} from './SubCardCore'
+import {motion} from 'framer-motion'
 
 const Item = styled(Paper)(({ theme }) => ({
     ...theme.typography.body2,
@@ -25,7 +26,14 @@ const SubCards = () => {
     return (
         <>
             <div className={(path == "/") ? styles.quote : Substyles.quote}>
-                <h4 className={Substyles.quoteText}>{randomQuote}</h4>
+            <motion.h4 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
+                className={styles.quoteText}
+                >
+                {randomQuote}
+            </motion.h4>
             </div>
             <Box sx={{ flexGrow: 1 }}>
             <Grid className={styles.container} container spacing={2}>

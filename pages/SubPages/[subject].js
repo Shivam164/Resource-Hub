@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRouter } from 'next/router'
-import NavbarColor from '../../components/NavbarColor'
+import NavbarColor from '../../components/navbar/NavbarColor'
 import Footer from '../../components/Footer' 
 import SubCards from '../../components/SubCards'
 import styles from '../../styles/subject.module.css'

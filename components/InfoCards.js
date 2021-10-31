@@ -8,6 +8,7 @@ import styles from '../styles/card.module.css';
 import Button from '@mui/material/Button';
 import { useRouter } from 'next/router';
 import Quotes from './Quotes'
+import {motion} from 'framer-motion'
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -29,7 +30,14 @@ const InfoCards = () => {
     return (
         <>
             <div className={styles.quote}>
-                <h3 className={styles.quoteText}>{randomQuote}</h3>
+                <motion.h3 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.5 ,duration: 1 }}
+                className={styles.quoteText}
+                >
+                {randomQuote}
+                </motion.h3>
             </div>
             <Box sx={{ flexGrow: 1 }}>
             <Grid className={styles.container} container spacing={2}>

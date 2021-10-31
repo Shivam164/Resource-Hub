@@ -24,12 +24,6 @@
     letter-spacing: 1px;
 }
 
-.list_div{
-    display:flex;
-    align-items:center;
-    width:40rem;
-}
-
 .navbar .navlist{
     width:35rem;
     margin:0;
@@ -61,6 +55,13 @@
 {
     .navbar{
         padding:3rem 5rem;
+    }
+}
+
+@media(max-width:700px)
+{
+    .navbar .navlist{
+        display: none;
     }
 }
 

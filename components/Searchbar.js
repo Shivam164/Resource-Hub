@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import SearchCard from '../components/SearchCard'
 import Subdata from './SubData';
+import {motion} from 'framer-motion'
 
 const getdata = (curr) => {
 
@@ -49,10 +50,15 @@ const Searchbar = () => {
 
     return (
         <div className={styles.search}>
-            <div className={styles.searchInput}>
+            <motion.div
+            initial={{x:"-200vh"}} 
+            animate={{x:0}}
+            transition={{duration:1}}
+            className={styles.searchInput}
+            >
                 <input className={styles.input} type="text" value={currInput} placeholder="Search your subject.." onChange={handleFilter} ></input>
                { isWritten==false ? <SearchIcon className={styles.Icon} /> : <CloseIcon className={styles.Icon} style={{cursor:"pointer"}} onClick={clearInput} /> }
-            </div>
+            </motion.div>
             <div className={styles.results}>
                 <Box sx={{ flexGrow: 1 }}>
                 <Grid className={styles.container} container spacing={2} rowSpacing={3}>

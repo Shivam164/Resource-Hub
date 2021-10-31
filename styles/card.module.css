@@ -82,7 +82,7 @@
     background: rgb(120,115,245);
     background: linear-gradient(40deg, rgba(120,115,245,1) 20%, rgba(255,110,196,1) 100%);
     border:0px;
-    color:#FEFBF3;
+    color:#FEFBF3 !important;
 }
 
 @media(max-width:900px)

@@ -1,6 +1,6 @@
 import React from 'react'
 import Searchbar from '../components/Searchbar'
-import NavbarColor from '../components/NavbarColor';
+import NavbarColor from '../components/navbar/NavbarColor';
 import Footer from '../components/Footer'
 
 const Search = () => {
@@ -8,7 +8,7 @@ const Search = () => {
         <>
           <NavbarColor />
           <Searchbar />
-          <Footer style={{position:"fixed"}} />  
+          <Footer style={{position:"fixed", bottom:0}} />  
         </>
     )
 }

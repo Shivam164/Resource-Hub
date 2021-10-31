@@ -64,6 +64,13 @@
     }
 }
 
+@media(max-width:700px)
+{
+    .navbar .navlist{
+        display: none;
+    }
+}
+
 @media(max-width:500px)
 {
     .navbar{
