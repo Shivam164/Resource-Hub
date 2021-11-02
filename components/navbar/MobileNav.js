@@ -26,11 +26,11 @@ const MobileNav = () => {
         >
         <ActiveLink exact href="/" className={styles.navlink}><li>Home</li></ActiveLink>
         <hr className={styles.lineBreak} />
-        <ActiveLink exact href="/Search" className={styles.navlink}><li>Search</li></ActiveLink>
+        <ActiveLink exact href="/Search" className={styles.navlink}><li>Subjects</li></ActiveLink>
         <hr className={styles.lineBreak} />
-        <ActiveLink exact href="/About" className={styles.navlink}><li>About</li></ActiveLink>
+        <ActiveLink exact href="/About" className={styles.navlink}><li>About Us</li></ActiveLink>
         <hr className={styles.lineBreak} />
-        <ActiveLink exact href="#" className={styles.navlink}><li>Contact</li></ActiveLink>
+        <ActiveLink exact href="#" className={styles.navlink}><li>Contact Us</li></ActiveLink>
         <li className={styles.list_foot}>Resource Hub ❤</li>
         </motion.ul> 
         </>

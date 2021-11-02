@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Card from './Card'
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box'; 
@@ -8,7 +8,8 @@ import styles from '../styles/card.module.css';
 import Button from '@mui/material/Button';
 import { useRouter } from 'next/router';
 import Quotes from './Quotes'
-import {motion} from 'framer-motion'
+import {motion, useAnimation} from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -26,6 +27,29 @@ const InfoCards = () => {
     };
 
     const randomQuote =  Quotes[Math.floor(Math.random() * 10)].quote;
+    
+    const {ref, inView} = useInView({
+        threshold : 0.5
+    });
+    const animate = useAnimation();
+
+    useEffect(() => {
+        if(inView)
+        {
+            animate.start({
+                y:0,
+                opacity:1,
+                transition:{ duration:1 }
+            });
+        }
+        else
+        {
+            animate.start({
+                y:"100px",
+                opacity:0
+            })
+        }
+    }, [inView])
 
     return (
         <>
@@ -39,7 +63,11 @@ const InfoCards = () => {
                 {randomQuote}
                 </motion.h3>
             </div>
-            <Box sx={{ flexGrow: 1 }}>
+            <motion.div
+             ref={ref}
+             animate={animate} 
+            >
+            <Box  sx={{ flexGrow: 1 }}>
             <Grid className={styles.container} container spacing={2}>
                 <Grid item xs={12} md={4}>
                 <Item> <Card id="1" 
@@ -61,6 +89,7 @@ const InfoCards = () => {
                 </Grid>
             </Grid>
             </Box>
+            </motion.div>
             <div className={styles.start}>
                 <Button className={styles.start_btn} variant="contained" onClick={redirectMe} >Start Learning</Button>
             </div>

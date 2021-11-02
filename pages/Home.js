@@ -19,6 +19,7 @@ const motionHead = {
 }
 
 const Home = () => { 
+
     return (
         <>
         <div className={styles.wrapper}>

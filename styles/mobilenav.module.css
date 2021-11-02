@@ -19,6 +19,7 @@
     z-index:1;
     line-height: 5rem;
     height:100vh;
+    display:none;
 }
 
 .list_foot{
@@ -54,6 +55,9 @@
 
 @media(max-width:700px){
     .toggleBtn{
+        display:unset;
+    }
+    .navlist{
         display:unset;
     }
 }
