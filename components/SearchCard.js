@@ -35,7 +35,6 @@ const SearchCard = (props) => {
     const animate = useAnimation();
     
     useEffect(()=>{
-        console.log(inView);
 
         if(inView)
         {

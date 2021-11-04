@@ -30,7 +30,7 @@ const MobileNav = () => {
         <hr className={styles.lineBreak} />
         <ActiveLink exact href="/About" className={styles.navlink}><li>About Us</li></ActiveLink>
         <hr className={styles.lineBreak} />
-        <ActiveLink exact href="#" className={styles.navlink}><li>Contact Us</li></ActiveLink>
+        <ActiveLink exact href="/Contact" className={styles.navlink}><li>Contact Us</li></ActiveLink>
         <li className={styles.list_foot}>Resource Hub ❤</li>
         </motion.ul> 
         </>

@@ -1,3 +1,4 @@
+import React, {useState, useEffect} from 'react'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
@@ -8,6 +9,7 @@ import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import Button from '@mui/material/Button';
 import { useRouter } from 'next/router';
 import SubData from './SubData'
+import  Videobtn  from './Videobtn'
 
 
 export const NotesCard = (props) => {
@@ -20,7 +22,7 @@ export const NotesCard = (props) => {
     const subName = router.query.subject;
 
      SubData.map( (curr) => {
-           console.log(curr.subject);
+    
            if(subName.includes(curr.subject))
            {
               window.open(curr.notes, "_blank");
@@ -28,21 +30,21 @@ export const NotesCard = (props) => {
      });
   }
 
-  return (
-    <Card className={styles.card} sx={{ minWidth: 275 }}>
-      <CardContent>
-        <StickyNote2Icon className={styles.icon} />
-        <Typography className={styles.card_title} variant="h5" component="div">
-          {props.title}
-        </Typography>
-        <Typography className={styles.card_text} variant="body2">
-          {props.text}
-        </Typography>
-        <Button className={styles.card_btn} variant="contained" onClick={getResource} >Get Resources</Button> 
-      </CardContent>
-    </Card>
-  );
-}
+    return (
+      <Card className={styles.card} sx={{ minWidth: 275 }}>
+        <CardContent>
+          <StickyNote2Icon className={styles.icon} />
+          <Typography className={styles.card_title} variant="h5" component="div">
+            {props.title}
+          </Typography>
+          <Typography className={styles.card_text} variant="body2">
+            {props.text}
+          </Typography>
+          <Button className={styles.card_btn} variant="contained" onClick={getResource} >Get Resources</Button>
+        </CardContent>
+      </Card>
+    );
+  }
 
 export const BooksCard = (props) => {
 
@@ -54,7 +56,6 @@ export const BooksCard = (props) => {
         const subName = router.query.subject;
     
          SubData.map( (curr) => {
-               console.log(curr.subject);
                if(subName.includes(curr.subject))
                {
                   window.open(curr.books, "_blank");
@@ -81,27 +82,32 @@ export const BooksCard = (props) => {
   export const VideoCard = (props) => {
 
     const router = useRouter();
-    const path = router.pathname;
-  
-    const getResource = () => {
-       const subName = router.query.subject;
-       
-  
-    }
-  
+    const [sub, setSub] = useState();
+    
+    const {subject} = router.query;
+
+    useEffect(()=>{
+      if(subject)
+      {
+        setSub(subject);
+      }
+  }, [subject]);
+
     return (
+
       <Card className={styles.card} sx={{ minWidth: 275 }}>
-        <CardContent>
-          <OndemandVideoIcon className={styles.icon} /> 
-          <Typography className={styles.card_title} variant="h5" component="div">
-            {props.title}
-          </Typography>
-          <Typography className={styles.card_text} variant="body2">
-            {props.text}
-          </Typography>
-          <Button className={styles.card_btn} variant="contained" onClick={getResource} >Get Resources</Button>
-        </CardContent>
-      </Card>
+      <CardContent>
+        <StickyNote2Icon className={styles.icon} />
+        <Typography className={styles.card_title} variant="h5" component="div">
+          {props.title}
+        </Typography>
+        <Typography className={styles.card_text} variant="body2">
+          {props.text}
+        </Typography>
+        {sub && <Videobtn title={sub} /> }
+      </CardContent>
+    </Card>
+
     );
   }
 

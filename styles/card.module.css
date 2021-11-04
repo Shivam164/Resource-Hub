@@ -12,6 +12,7 @@
     color:#FEFBF3;
     border-radius:10px;
     box-shadow: 0 5px 5px grey;
+    overflow:visible;
 }
 
 .card .card_title{
@@ -83,6 +84,10 @@
     background: linear-gradient(40deg, rgba(120,115,245,1) 20%, rgba(255,110,196,1) 100%);
     border:0px;
     color:#FEFBF3 !important;
+}
+
+.link_list{
+    position:relative;
 }
 
 @media(max-width:900px)

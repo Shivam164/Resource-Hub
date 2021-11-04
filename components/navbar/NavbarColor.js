@@ -16,7 +16,7 @@ const NavbarColor = () => {
            <li><ActiveLink exact href="/" className={styles.navlink}>Home</ActiveLink></li>
            <li><ActiveLink exact href="/Search" className={styles.navlink}>Subjects</ActiveLink></li>
            <li><ActiveLink exact href="/About" className={styles.navlink}>About Us</ActiveLink></li>
-           <li><ActiveLink exact href="#" className={styles.navlink}>Contact Us</ActiveLink></li>
+           <li><ActiveLink exact href="/Contact" className={styles.navlink}>Contact Us</ActiveLink></li>
          </ul>
          
             
