@@ -1,16 +1,6 @@
-.drop_list{
-   width:15rem;
-   position:absolute;
-   list-style: none;
-   text-align:start;
-   background-color:black;
-   padding:0; 
-   left:12rem;
-   top:-1rem;
-}
 
 .list_items{
-    font-size:2rem;
+    font-size:2rem !important;
 }
 
 .card_btn{

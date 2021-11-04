@@ -51,7 +51,7 @@ const BasicMenu = ({title}) => {
               return(
               curr.videos.map((current)=>{
               return(
-                  <MenuItem className={styles.list_items} onClick={handleClose}><Link href={current.link}><a target="_blank">Link {current.number}</a></Link></MenuItem>
+                  <MenuItem className={styles.list_items} onClick={handleClose} key={current.id} ><Link href={current.link}><a target="_blank">Link {current.id}</a></Link></MenuItem>
               )
             }) );
             }
