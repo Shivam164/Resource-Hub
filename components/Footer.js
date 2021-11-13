@@ -9,6 +9,6 @@ const Footer = () => {
             <h3 className={styles.foot_text}>Made with <span style={{color:"#E02401"}}>❤</span> by one of you</h3>
         </div>
     )
-}
+} 
 
 export default Footer

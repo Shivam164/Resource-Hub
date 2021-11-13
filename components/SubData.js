@@ -386,15 +386,7 @@ const SubData = [
         videos: [
             {
                 id:"1",
-                link:""
-            },
-            {
-                id:"2",
-                link:""
-            },
-            {
-                id:"3",
-                link:""
+                link:"https://www.youtube.com/c/Ekeeda"
             }
         ]
     },
@@ -477,15 +469,7 @@ const SubData = [
         videos: [
             {
                 id:"1",
-                link:""
-            },
-            {
-                id:"2",
-                link:""
-            },
-            {
-                id:"3",
-                link:""
+                link:"https://www.youtube.com/c/nesoacademy"
             }
         ]
     },
@@ -500,6 +484,69 @@ const SubData = [
                 link:"https://www.youtube.com/playlist?list=PLdnsORcN_8yi1iEPXagU0acwtChNQShFe"
             }
         ]
+    },
+    {
+        id:"30",
+        subject:"artificial intelligence",
+        books:"https://drive.google.com/drive/folders/1jkqlxqITxT1qloOWvoy-EY3Tm_jdSLjG?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1e30XG7Dp4m3YdkDin5No8rT1x6tg9bs2?usp=sharing",
+        videos:[]
+    },
+    {
+        id:"31",
+        subject:"applied linear algebra",
+        books:"https://drive.google.com/drive/folders/1ZJFHyRPg2Bf8upt-jiNGM8w43Eb_LRmN?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1PS-ZX6KWgTfMJgQUEAnV35xq5npjg9C-?usp=sharing",
+        videos:[]
+    },
+    {
+        id:"32",
+        subject:"real analysis",
+        books:"https://drive.google.com/drive/folders/1-ln7-sqkIx8X-2HSiaoB8l8ux7Zv5Yk7?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1cpc90ApciR-41I8ltAiQkKeKxuFyOczV?usp=sharing",
+        videos:[]
+    },
+    {
+        id:"33",
+        subject:"scientific computing",
+        books:"https://drive.google.com/drive/folders/1_SOF7qXt2dSoGdp2nTeHju2AuJNlNxk3?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1Dso9f7924UlVcZw9MGTt4YKsh1B62AlN?usp=sharing",
+        videos:[]
+    },
+    {
+        id:"34",
+        subject:"theory of computation",
+        books:"https://drive.google.com/drive/folders/1i4hI2RW5XwxddGv30N2hoS6aDS_jecf_?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1J6fmWaqiQfoFjPItLAAe9AG0sRq44sce?usp=sharing",
+        videos:[
+            {
+                id:"1",
+                link:"https://www.youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev"
+            },
+            {
+                id:"2",
+                link:"https://www.youtube.com/playlist?list=PLxCzCOWd7aiFM9Lj5G9G_76adtyb4ef7i"
+            }
+        ]
+    },
+    {
+        id:"35",
+        subject:"number theory and cryptography",
+        books:"https://drive.google.com/drive/folders/19kzluFefkqvWpa6ombJ5brOSYr228K-2?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1pleQRtxI6glD3a1ryNCe9QdyLU2aJq_r?usp=sharing",
+        videos:[
+            {
+                id:"1",
+                link:"https://www.youtube.com/playlist?list=PL9FuOtXibFjV77w2eyil4Xzp8eooqsPp8"
+            }
+        ]
+    },
+    {
+        id:"36",
+        subject:"mobile computing",
+        books:"https://drive.google.com/drive/folders/1_qVtrZYDbxlQTKc6Mp0RqR9ghk5uL9NB?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1ejgrc6kAQhN_9-NpVK_FdsuIXPFUR1h8?usp=sharing",
+        videos:[]
     }
 
 ]
