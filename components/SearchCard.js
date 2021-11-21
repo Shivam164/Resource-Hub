@@ -55,7 +55,7 @@ const SearchCard = (props) => {
 
     return (
         <>   
-            <Grid item xs={12} sm={6} md={3}>
+            <Grid item xs={12} sm={6} md={4} lg={3}>
             <Item ref={ref} > 
                 <motion.div 
                  animate={animate}

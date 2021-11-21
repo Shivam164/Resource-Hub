@@ -8,10 +8,10 @@ const About = () => {
         <>
             <NavbarCo />
             <div className={styles.about_main}>
-                <h1 className={styles.about_head}>ABOUT</h1>
+                <h1 className={styles.about_head}>ABOUT US</h1>
                 <div className={styles.about_text}>
                     <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Get stuck in your studies or don't have the proper material! No worries, we are right here to help you out. We came up with a one-stop solution for all your problems. Here you will find your subject Notes, Books and Lecture videos to assist your way out.
                     </p>
                 </div>
             </div> 
