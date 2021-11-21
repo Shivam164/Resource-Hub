@@ -11,7 +11,7 @@ const About = () => {
                 <h1 className={styles.about_head}>ABOUT US</h1>
                 <div className={styles.about_text}>
                     <p>
-                    Get stuck in your studies or don't have the proper material! No worries, we are right here to help you out. We came up with a one-stop solution for all your problems. Here you will find your subject Notes, Books and Lecture videos to assist your way out.
+                    {"Get stuck in your studies or don't have the proper material! No worries, we are right here to help you out. We came up with a one-stop solution for all your problems. Here you will find your subject Notes, Books and Lecture videos to assist your way out."}
                     </p>
                 </div>
             </div> 
