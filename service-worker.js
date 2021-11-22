@@ -114,11 +114,11 @@ setCatchHandler(({ event }) => {
   // One approach would be to use request.destination, see
   // https://medium.com/dev-channel/service-worker-caching-strategies-based-on-request-types-57411dd7652c
   switch (event.request.destination) {
-    // case 'document':
-    //   // If using precached URLs:
-    //   return matchPrecache('/fallback');
-    //   // return caches.match('/fallback')
-    //   break
+    case 'document':
+      // If using precached URLs:
+      return matchPrecache('/fallback');
+      // return caches.match('/fallback')
+      break
     case 'image':
       // If using precached URLs:
       return matchPrecache('/static/images/fallback.png');
