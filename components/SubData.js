@@ -362,18 +362,22 @@ const SubData = [
         videos: [
             {
                 id:"1",
-                link:"https://www.youtube.com/playlist?list=PLrjkTql3jnm8HbdMwBYIMAd3UdstWChFH"
+                link:"https://drive.google.com/drive/folders/1cwWfZVPUTLsVlhJijEqD01VkFgTf52Ho?usp=sharing"
             },
             {
                 id:"2",
-                link:"https://www.youtube.com/channel/UC-AyjLkoQSxTHN3zlThxg6w"
+                link:"https://www.youtube.com/playlist?list=PLrjkTql3jnm8HbdMwBYIMAd3UdstWChFH"
             },
             {
                 id:"3",
-                link:"https://www.youtube.com/playlist?list=PLZFw7Zsba5ROBcBS7JwIkuCcDW6icM5I3"
+                link:"https://www.youtube.com/channel/UC-AyjLkoQSxTHN3zlThxg6w"
             },
             {
                 id:"4",
+                link:"https://www.youtube.com/playlist?list=PLZFw7Zsba5ROBcBS7JwIkuCcDW6icM5I3"
+            },
+            {
+                id:"5",
                 link:"https://www.youtube.com/playlist?list=PL1XaeVNXKsvylDOYoZzxiWPd5CNvc3RYQ"
             }
         ]
@@ -546,6 +550,22 @@ const SubData = [
         subject:"mobile computing",
         books:"https://drive.google.com/drive/folders/1_qVtrZYDbxlQTKc6Mp0RqR9ghk5uL9NB?usp=sharing",
         notes:"https://drive.google.com/drive/folders/1ejgrc6kAQhN_9-NpVK_FdsuIXPFUR1h8?usp=sharing",
+        videos:[
+            {
+                id:"1",
+                link:"youtube.com/playlist?list=PLV8vIYTIdSnZMKTQSTxWbx4NGNfxyZq_N"
+            },
+            {
+                id:"2",
+                link:"https://www.youtube.com/playlist?list=PLZFw7Zsba5RMFgBj2qA1yjKSYsLyd2iZR"
+            }
+        ]
+    },
+    {
+        id:"37",
+        subject:"communication engineering",
+        books:"https://drive.google.com/drive/folders/1NJqvoqNf0D4OIbMjmUp-pUF61O0R5sHc?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1tnstSO9V6ikeOJElP9ArVuFy76bjMs4I?usp=sharing",
         videos:[]
     }
 
