@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from '../styles/footer.module.css'
+import styles from '../styles/footer2.module.css'
 
-const Footer = () => {
+const Footer2 = () => {
     return (
         <div className={styles.footer}>
             <h1 className={styles.logo}>Recource Hub</h1>
@@ -10,4 +10,4 @@ const Footer = () => {
     )
 } 
 
-export default Footer
+export default Footer2

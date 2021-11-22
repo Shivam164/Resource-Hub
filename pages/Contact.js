@@ -1,6 +1,6 @@
 import React from 'react'
 import NavbarCo from '../components/navbar/NavbarColor'
-import Footer from '../components/Footer'
+import Footer from '../components/Footer2'
 import styles from '../styles/about.module.css'
 
 const Contact = () => {
