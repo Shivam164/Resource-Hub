@@ -3,19 +3,15 @@
 
 
 .footer{
-    display: flex;
-    flex-direction: column;
     width:100%;
     padding:5rem 10rem;
     background: rgb(120,115,245);
     background: linear-gradient(40deg, rgba(120,115,245,1) 20%, rgba(255,110,196,1) 100%);
-    /* justify-content: center; */
-    align-items: center;
     text-align: center;
+
 }
 
 .logo{
-    margin:0;
     margin: 1rem 0;
     font-size:3rem;
     color:#FEFBF3;
