@@ -1,6 +1,6 @@
 import React from 'react'
 import NavbarCo from '../components/navbar/NavbarColor'
-import Footer from '../components/Footer2'
+import Footer from '../components/Footer'
 import styles from '../styles/about.module.css'
 
 const About = () => {
