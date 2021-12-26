@@ -538,6 +538,10 @@ const SubData = [
             {
                 id:"1",
                 link:"https://www.youtube.com/playlist?list=PL9FuOtXibFjV77w2eyil4Xzp8eooqsPp8"
+            },
+            {
+                id:"2",
+                link:"https://www.youtube.com/playlist?list=PLqfPEK2RTgCgJhjoDrmUYY7R0mzJzw9Mu"
             }
         ]
     },
@@ -563,6 +567,58 @@ const SubData = [
         books:"https://drive.google.com/drive/folders/1NJqvoqNf0D4OIbMjmUp-pUF61O0R5sHc?usp=sharing",
         notes:"https://drive.google.com/drive/folders/1tnstSO9V6ikeOJElP9ArVuFy76bjMs4I?usp=sharing",
         videos:[]
+    },
+    {
+        id:"38",
+        subject:"compilers",
+        books:"https://drive.google.com/drive/folders/1a74nQZcvgwc9YYjEo0wg_YKqhZuNZXht?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1baqc3Lf5tCpsaQmM0oK3D9KpTbtYriPJ?usp=sharing",
+        videos:[
+            {
+                id:"1",
+                link:"https://www.youtube.com/playlist?list=PLxCzCOWd7aiEKtKSIHYusizkESC42diyc"
+            }
+        ]
+    },
+    {
+        id:"39",
+        subject:"cloud",
+        books:"https://drive.google.com/drive/folders/1xDS-WabjwuHD4o68QdMKZk4ZVyty_VO9?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1xWTyNDNuc_rR40kLjjFOBYYSVkTNCJyv?usp=sharing",
+        videos:[
+            {
+                id:"1",
+                link:"https://www.youtube.com/playlist?list=PL9FuOtXibFjUE8MpVv6uiAWfj5E3dsBZR"
+            }
+        ]
+    },
+    {
+        id:"40",
+        subject:"data mining",
+        books:"https://drive.google.com/drive/folders/1iIuoiN9aiVeZAFicB3WXWc3me3PC7tU1?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1WHUTG6qfyDfLPDLqUDHIRQoFRROcq4H9?usp=sharing",
+        videos:[
+            {
+                id:"1",
+                link:"https://www.youtube.com/playlist?list=PLYwpaL_SFmcChP0xiW3KK9elNuhfCLVVi"
+            }
+        ]
+    },
+    {
+        id:"41",
+        subject:"machine learning",
+        books:"https://drive.google.com/drive/folders/1AFJlFbC8f-Nrlqjwe0na2r8J1PWIGYnb?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1LKE4NTsp5OhPUwHSgW6ZkjNPTKsnMUh0?usp=sharing",
+        videos:[
+            {
+                id:"1",
+                link:"https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN"
+            },
+            {
+                id:"2",
+                link:"https://www.youtube.com/playlist?list=PLYwpaL_SFmcBhOEPwf5cFwqo5B-cP9G4P"
+            }
+        ]
     }
 
 ]
