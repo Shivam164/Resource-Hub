@@ -50,7 +50,7 @@ const SearchCard = (props) => {
                 x:"-100px",
                 opacity:0
             })
-        }
+        } 
     }, [inView])
 
     return (

@@ -46,7 +46,7 @@ const Searchbar = () => {
         setCurrinput("");
         setWritten(false);
     };
-
+ 
 
     return (
         <div className={styles.search}>

@@ -31,7 +31,7 @@
 }
 
 .navbar .navlist{
-    width:35rem;
+    width:40rem;
     margin:0;
     list-style: none;
     display:flex;
@@ -64,7 +64,7 @@
     }
 }
 
-@media(max-width:700px)
+@media(max-width:750px)
 {
     .navbar .navlist{
         display: none;

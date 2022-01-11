@@ -25,7 +25,7 @@
 }
 
 .navbar .navlist{
-    width:35rem;
+    width:40rem;
     margin:0;
     list-style: none;
     display:flex;
@@ -48,8 +48,9 @@
 
 .active{ 
     color:#FEFBF3 !important;
-    font-weight: bold;
+    font-weight: bold; 
 }
+
 
 @media(max-width:900px)
 {
@@ -58,7 +59,7 @@
     }
 }
 
-@media(max-width:700px)
+@media(max-width:750px)
 {
     .navbar .navlist{
         display: none;

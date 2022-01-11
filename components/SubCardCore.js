@@ -9,7 +9,7 @@ import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import Button from '@mui/material/Button';
 import { useRouter } from 'next/router';
 import SubData from './SubData'
-import  Videobtn  from './Videobtn'
+import  Videobtn  from './Videobtn' 
 
 
 export const NotesCard = (props) => {
@@ -97,7 +97,7 @@ export const BooksCard = (props) => {
 
       <Card className={styles.card} sx={{ minWidth: 275 }}>
       <CardContent>
-        <StickyNote2Icon className={styles.icon} />
+        <OndemandVideoIcon className={styles.icon} />
         <Typography className={styles.card_title} variant="h5" component="div">
           {props.title}
         </Typography>
