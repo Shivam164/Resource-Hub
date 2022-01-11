@@ -3,6 +3,7 @@ import styles from "../../styles/paper.module.css";
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import PaperData from './PaperData';
+import Image from "next/image";
 
 const PaperCard = ({title, image}) => {
 
@@ -33,8 +34,10 @@ const PaperCard = ({title, image}) => {
     return (
         <Grid item xs={12} sm={6} md={4} lg={3}>
         <div className={styles.paperCard}>
-            <div className={styles.imgdiv}>
-                <img className={styles.branchImg} src={image} />
+            <div className={styles.imgWrap}>
+                <div className={styles.imgdiv}>
+                    <Image src={image} layout="fill" />
+                </div>
             </div>
             <div className={styles.titleWrapper}>
                 <div className={styles.border}>

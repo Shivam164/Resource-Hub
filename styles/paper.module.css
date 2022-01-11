@@ -12,6 +12,12 @@
 }
 
 .imgdiv{
+    height:19.8rem;
+    width:100%;
+    position:relative;
+}
+
+.imgWrap{
     height:20rem;
     width:100%;
     background: rgb(120,115,245);
@@ -74,11 +80,6 @@
 
 .card_btn:hover{
     color:#EAEAEA !important;
-}
-
-.branchImg{
-    width:100%;
-    height:19.8rem;
 }
 
 .subdiv{
