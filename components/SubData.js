@@ -619,6 +619,27 @@ const SubData = [
                 link:"https://www.youtube.com/playlist?list=PLYwpaL_SFmcBhOEPwf5cFwqo5B-cP9G4P"
             }
         ]
+    },
+    {
+        id:"42",
+        subject:"embedded system design",
+        books:"https://drive.google.com/drive/folders/190xITu9VWE_XEDTn6dnUUw36SkLYbkbj?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1plaVNh8b8_CasFduB2NtCegWRm-TaAsx?usp=sharing",
+        videos:[]
+    },
+    {
+        id:"43",
+        subject:"digital signal processing",
+        books:"https://drive.google.com/drive/folders/19sSaTKqxXmuaF95rbO0bmHaqJITfrICK?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1EQ1lEa4x7nRBrylLk2P_8KQwSkd2dMFh?usp=sharing",
+        videos:[]
+    },
+    {
+        id:"44",
+        subject:"optical fiber communication",
+        books:"https://drive.google.com/drive/folders/1Cj1PWdizqkchtBbEvRJoMJKiy2bCvUIk?usp=sharing",
+        notes:"https://drive.google.com/drive/folders/1sprShJsaCt1cceWw1qjy-vBlUNvzOSca?usp=sharing",
+        videos:[]
     }
 
 ]
