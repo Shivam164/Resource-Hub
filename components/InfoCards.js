@@ -28,28 +28,28 @@ const InfoCards = () => {
 
     const randomQuote =  Quotes[Math.floor(Math.random() * 10)].quote;
     
-    const {ref, inView} = useInView({
-        threshold : 0.5
-    });
-    const animate = useAnimation();
+    // const {ref, inView} = useInView({
+    //     threshold : 0.5
+    // });
+    // const animate = useAnimation();
 
-    useEffect(() => {
-        if(inView)
-        {
-            animate.start({
-                y:0,
-                opacity:1,
-                transition:{ duration:1 }
-            }); 
-        }
-        else
-        {
-            animate.start({
-                y:"100px",
-                opacity:0
-            })
-        }
-    }, [inView])
+    // useEffect(() => {
+    //     if(inView)
+    //     {
+    //         animate.start({
+    //             y:0,
+    //             opacity:1,
+    //             transition:{ duration:1 }
+    //         }); 
+    //     }
+    //     else
+    //     {
+    //         animate.start({
+    //             y:"100px",
+    //             opacity:0
+    //         })
+    //     }
+    // }, [inView])
 
     return (
         <>
@@ -63,10 +63,10 @@ const InfoCards = () => {
                 {randomQuote}
                 </motion.h3>
             </div>
-            <motion.div
+            {/* <motion.div
              ref={ref}
              animate={animate} 
-            >
+            > */}
             <Box  sx={{ flexGrow: 1 }}>
             <Grid className={styles.container} container spacing={2}>
                 <Grid item xs={12} md={6}>
@@ -95,7 +95,7 @@ const InfoCards = () => {
                 </Grid>
             </Grid>
             </Box>
-            </motion.div>
+            {/* </motion.div> */}
             <div className={styles.start}>
                 <Button className={styles.start_btn} variant="contained" onClick={redirectMe} >Start Learning</Button>
             </div>
