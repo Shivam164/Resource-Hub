@@ -18,9 +18,9 @@ const BasicMenu = ({title}) => {
   };
 
   return (
-    <div>
+    <div> 
       <Button
-        id="basic-button"
+        variant="contained"
         className={styles.card_btn}
         aria-controls="basic-menu"
         aria-haspopup="true"

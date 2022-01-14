@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+
 
 .quote{
     display:flex; 
@@ -77,6 +79,9 @@
     background: linear-gradient(40deg, rgba(120,115,245,1) 20%, rgba(255,110,196,1) 100%);
     border:0px;
     color:#FEFBF3 !important;
+}
+.link_list{
+    position:relative;
 }
 
 @media(max-width:900px)
