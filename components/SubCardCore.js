@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import styles from '../styles/subject.module.css';
+import styles from '../styles/card.module.css';
 import StickyNote2Icon from '@mui/icons-material/StickyNote2';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';

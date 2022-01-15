@@ -35,55 +35,6 @@
     -webkit-text-fill-color: transparent;
 }
 
-.card{
-    background: rgb(120,115,245);
-    background: linear-gradient(40deg, rgba(120,115,245,1) 20%, rgba(255,110,196,1) 100%);
-    color:#FEFBF3;
-    border-radius:10px;
-    box-shadow: 0 5px 5px grey;
-    overflow:visible;
-}
-
-.card .card_title{
-    font-size:3rem;
-    margin: 0.5rem 0;
-    font-family: 'Catamaran', sans-serif;
-    font-weight:700;
-    color:#FEFBF3;
-}
-
-.card .card_text{
-    font-size:2rem;
-    font-weight: 400;
-    font-family: 'Catamaran', sans-serif;
-    color:#FEFBF3;
-}
-
-.card .icon{
-    font-size:5rem;
-    color:#FEFBF3;
-}
-
-.card_btn{
-    font-size:1.5rem !important;
-    color:#7873f5 !important;
-    /* border:2px solid #7873f5; */
-    background-color:#FEFBF3 !important;
-    text-transform:none !important;
-    margin-top:1.5rem !important;
-    margin-bottom:0.5rem !important;
-}
-
-.card_btn:hover{
-    background: rgb(120,115,245);
-    background: linear-gradient(40deg, rgba(120,115,245,1) 20%, rgba(255,110,196,1) 100%);
-    border:0px;
-    color:#FEFBF3 !important;
-}
-.link_list{
-    position:relative;
-}
-
 @media(max-width:900px)
 {
     .quote{

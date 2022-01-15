@@ -3,10 +3,13 @@
 .container{
     padding: 0 10rem;
     margin-bottom:5rem;
-} 
+}
+
+.home_card{
+    height:20rem;
+}
 
 .card{
-    height:20rem;
     background: rgb(120,115,245);
     background: linear-gradient(40deg, rgba(120,115,245,1) 20%, rgba(255,110,196,1) 100%);
     color:#FEFBF3;
@@ -130,5 +133,11 @@
 @media(max-width:450px){
     .card{
         height:23rem;
+    }
+}
+
+@media(max-width:326px){
+    .start .start_btn{
+        font-size:1.5rem;
     }
 }

@@ -12,7 +12,7 @@ import AttachmentIcon from '@mui/icons-material/Attachment';
 export default function BasicCard(props) {
 
   return (
-    <Card className={styles.card} sx={{ minWidth: 275 }}>
+    <Card className={`${styles.card} ${styles.home_card}`} sx={{ minWidth: 275 }}>
       <CardContent>
          {(props.icon === "notes") && <StickyNote2Icon className={styles.icon} /> }
          {(props.icon === "book") && <MenuBookIcon className={styles.icon} />  }
