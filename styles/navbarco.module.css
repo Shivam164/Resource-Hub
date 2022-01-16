@@ -14,6 +14,9 @@
 .logo{
     display:flex;
     align-items:center;
+    position:relative;
+    height:10rem;
+    width:10rem;
 }
 
 .logo h1{
@@ -68,6 +71,10 @@
 {
     .navbar .navlist{
         display: none;
+    }
+    .logo{
+        width:6rem;
+        height:6rem;
     }
 }
 

@@ -3,6 +3,8 @@ import ActiveLink from './ActiveLink'
 import styles from '../../styles/mobilenav.module.css'
 import Toggler from './MoNavTog'
 import {motion} from 'framer-motion'
+import Image from 'next/image';
+import Logo from "../../assets/images/logo.png";
 
 const menutoggle = {
     open: {opacity:1,width:"100%", height:"100vh"},
@@ -33,7 +35,11 @@ const MobileNav = () => {
         <ActiveLink exact href="/About" className={styles.navlink}><li>About Us</li></ActiveLink>
         <hr className={styles.lineBreak} />
         <ActiveLink exact href="/Contact" className={styles.navlink}><li>Contact Us</li></ActiveLink>
-        <li className={styles.list_foot}>Resource Hub ❤</li>
+        <li className={styles.list_foot}>
+            <div style={{width:"10rem", height:"10rem", position:"relative"}}>
+                <Image src={Logo} layout="fill" />
+            </div>
+        </li>
         </motion.ul> 
         </>
     )

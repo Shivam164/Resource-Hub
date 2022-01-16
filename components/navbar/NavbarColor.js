@@ -2,13 +2,15 @@ import React from 'react'
 import styles from '../../styles/navbarco.module.css'
 import ActiveLink from './ActiveLink'
 import MobileNav from './MobileNav'
+import Image from 'next/image';
+import Logo from "../../assets/images/logo.png";
 
 
 const NavbarColor = () => {
     return (
         <nav className={styles.navbar}>
          <div className={styles.logo}>
-             <h1>ResourceHub</h1>
+            <Image src={Logo} layout="fill" />
          </div>
          
          <MobileNav  />
