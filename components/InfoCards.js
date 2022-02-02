@@ -70,25 +70,29 @@ const InfoCards = () => {
             <Box  sx={{ flexGrow: 1 }}>
             <Grid className={styles.container} container spacing={2}>
                 <Grid item xs={12} md={6}>
-                <Item> <Card id="1" 
+                <Item> <Card   
+                             id="1" 
                              title="Notes"
                              text="Short notes for those who pull an all nighter, one night before exams :)"
                              icon="notes"  /> </Item>
                 </Grid>
                 <Grid item xs={12} md={6}>
-                <Item> <Card id="2" 
+                <Item> <Card  
+                             id="2" 
                              title="Books"
                              text="We do care about all our book worms who like to read :)"
                              icon="book"  /> </Item>
                 </Grid>
                 <Grid item xs={12} md={6}>
-                <Item> <Card id="3" 
+                <Item> <Card  
+                             id="3" 
                              title="Videos"
                              text="Not a fan of reading? ,no worries we got your back, watch and learn :)"
                              icon="video"  /> </Item>
                 </Grid>
                 <Grid item xs={12} md={6}>
-                <Item> <Card id="4" 
+                <Item> <Card  
+                             id="4" 
                              title="Papers"
                              text="Previous year papers for our topper friends, who really manage to complete the syllabus :)"
                              icon="paper"  /> </Item>

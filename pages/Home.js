@@ -6,7 +6,6 @@ import Image from 'next/image'
 import Infocard from '../components/InfoCards'
 import Footer from '../components/Footer'
 import {motion} from 'framer-motion'
-import Videobtn from '../components/Videobtn'
 
 const motionHead = {
     hidden:{
