@@ -6,7 +6,7 @@
 }
 
 .home_card{
-    height:20rem!important;
+    height:20rem;
 }
 
 .card{ 
@@ -16,6 +16,10 @@
     border-radius:10px;
     box-shadow: 0 5px 5px grey;
     overflow:visible;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 }
 
 .card .card_title{
