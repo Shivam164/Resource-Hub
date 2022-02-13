@@ -640,6 +640,18 @@ const SubData = [
         books:"https://drive.google.com/drive/folders/1Cj1PWdizqkchtBbEvRJoMJKiy2bCvUIk?usp=sharing",
         notes:"https://drive.google.com/drive/folders/1sprShJsaCt1cceWw1qjy-vBlUNvzOSca?usp=sharing",
         videos:[]
+    },
+    {
+        id:"45",
+        subject:"data communication",
+        books:"https://drive.google.com/drive/folders/10oUyXIg1NEKbz4MJAy4RB4U7CNG4Jwm5",
+        notes:"https://drive.google.com/drive/folders/10rXnCGzUGC6ZzvOkIqmaVcoSRgG9kCvn",
+        videos: [
+            {
+                id:"1",
+                link:"https://youtube.com/playlist?list=PLgwJf8NK-2e5PngHbdEadEun5XPvnn00N"
+            }
+        ]
     }
 
 ]
