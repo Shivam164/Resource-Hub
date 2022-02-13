@@ -4,40 +4,14 @@ const SubData = [
         subject:"physics",
         books:"https://drive.google.com/drive/folders/1W0VyVMuoKlc_wF-bYEGA38iHm04TsoCQ?usp=sharing",
         notes:"https://drive.google.com/drive/folders/1GXBXnMogidd6YRBvxyPan2nvnrDiZ5JZ?usp=sharing",
-        videos: [
-            {
-                id:"1",
-                link:""
-            },
-            {
-                id:"2",
-                link:""
-            },
-            {
-                id:"3",
-                link:""
-            }
-        ]
+        videos: []
     },
     {
         id:"2",
         subject:"chemistry",
         books:"https://drive.google.com/drive/folders/1QtNvZRAak9SyHJNTLZCsUYEWqrO8-ZbB?usp=sharing",
         notes:"https://drive.google.com/drive/folders/1JPNw7sRrCcaYieTEqW8sm9itqUU-gT-J?usp=sharing",
-        videos: [
-            {
-                id:"1",
-                link:""
-            },
-            {
-                id:"2",
-                link:""
-            },
-            {
-                id:"3",
-                link:""
-            }
-        ]
+        videos: []
     },
     {
         id:"3",
@@ -414,40 +388,14 @@ const SubData = [
         subject:"web tech",
         books:"https://drive.google.com/drive/folders/1mO4RKY7nRl0vKEbHWVjGz7YyAtBuMrMi?usp=sharing",
         notes:"https://drive.google.com/drive/folders/1rQrYiiAXYeOtINWYYx-u4ZMuQNVDe_t-?usp=sharing",
-        videos: [
-            {
-                id:"1",
-                link:""
-            },
-            {
-                id:"2",
-                link:""
-            },
-            {
-                id:"3",
-                link:""
-            }
-        ]
+        videos: []
     },
     {
         id:"26",
         subject:"electronic devices and circuits",
         books:"https://drive.google.com/drive/folders/1y09FCEkRH13dP6f04SIuYZL-IumEUBq1?usp=sharing",
         notes:"https://drive.google.com/drive/folders/11D6BPrzsz27uiluTeVdAK9eRp91gvQ8d?usp=sharing",
-        videos: [
-            {
-                id:"1",
-                link:""
-            },
-            {
-                id:"2",
-                link:""
-            },
-            {
-                id:"3",
-                link:""
-            }
-        ]
+        videos: []
     },
     {
         id:"27",
