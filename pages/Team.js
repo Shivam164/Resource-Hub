@@ -9,7 +9,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import Image from 'next/image'
 import image from '../assets/images/profile.png'
 
-const About = () => {
+const Team = () => {
     return (
         <div className={styles.about_page}>
             <NavbarCo />
@@ -118,4 +118,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Team
