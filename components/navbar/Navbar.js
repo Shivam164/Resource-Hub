@@ -17,7 +17,7 @@ const Navbar = () => {
             <ActiveLink exact href="/" className={styles.navlink}><li>Home</li></ActiveLink>
             <ActiveLink exact href="/Search" className={styles.navlink}><li>Subjects</li></ActiveLink>
             <ActiveLink exact href="/Papers" className={styles.navlink}><li>Papers</li></ActiveLink>
-            <ActiveLink exact href="/Team" className={styles.navlink}><li>Team</li></ActiveLink>
+            <ActiveLink exact href="/About" className={styles.navlink}><li>About Us</li></ActiveLink>
             <ActiveLink exact href="/Contact" className={styles.navlink}><li>Contact Us</li></ActiveLink>
          </ul>
          
