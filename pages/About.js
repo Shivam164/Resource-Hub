@@ -35,7 +35,7 @@ const About = () => {
                             <FacebookIcon style={{ fontSize:30 }}/>
                         </div>
                         <div className={styles.member_text}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                         </div>
                     </div>
                     <Image src={image} alt="Picture of the author" width={300} height={300} className={styles.member_image}/>
@@ -53,7 +53,7 @@ const About = () => {
                             <FacebookIcon style={{ fontSize:30 }}/>
                         </div>
                         <div className={styles.member_text}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industr standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                         </div>
                     </div>
                     <Image src={image} alt="Picture of the author" width={300} height={300} className={styles.member_image}/>
@@ -71,7 +71,7 @@ const About = () => {
                             <FacebookIcon style={{ fontSize:30 }}/>
                         </div>
                         <div className={styles.member_text}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                         </div>
                     </div>
                     <Image src={image} alt="Picture of the author" width={300} height={300} className={styles.member_image}/>
@@ -89,7 +89,7 @@ const About = () => {
                             <FacebookIcon style={{ fontSize:30 }}/>
                         </div>
                         <div className={styles.member_text}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                         </div>
                     </div>
                     <Image src={image} alt="Picture of the author" width={300} height={300} className={styles.member_image}/>
@@ -107,7 +107,7 @@ const About = () => {
                             <FacebookIcon style={{ fontSize:30 }}/>
                         </div>  
                         <div className={styles.member_text}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                         </div>
                     </div>
                     <Image src={image} alt="Picture of the author" width={300} height={300} className={styles.member_image}/>
