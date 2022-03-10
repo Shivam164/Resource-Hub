@@ -43,7 +43,10 @@ const Home = () => {
                 transition={{delay:0.5 ,duration:2}}
                 className={styles.main_text}
                 >
-                One stop solution for your academics.
+                <p>The <span className={styles.one_place}>One place</span></p>
+                <p>to get all the</p>
+                <p>study material</p>
+                <p>that <span className={styles.you_need}>you need.</span></p>
                 </motion.p>
 
              </div>
@@ -52,9 +55,25 @@ const Home = () => {
                 <Image src={test} width="600" height="400" className={styles.main_img} alt="" />
              </div>
          </div>
-
         </div>
         
+        {/* About */}
+        <div className={`${styles.container_about} ${styles.main}`}>
+            
+             <div className={styles.main_content_about}>
+                 <span>About Resource Hub</span>
+                <p>Be Stronger</p>
+                <p>than your</p>
+                <p><span className={styles.border_text}>excuses</span>.</p>
+             </div>
+
+             <div className="">
+                <Image src={test} width="600" height="400" className={styles.main_img} alt="" />
+             </div>
+         </div>
+        <div className={styles.resource_title}>
+            <h1>Our Resources</h1>
+        </div>
         <Infocard /> 
         <Footer />
         </>
