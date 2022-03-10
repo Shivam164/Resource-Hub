@@ -51,7 +51,7 @@ const Home = () => {
 
              </div>
 
-             <div className="">
+             <div className={styles.banner_vector}>
                 <Image src={test} width="600" height="400" className={styles.main_img} alt="" />
              </div>
          </div>
@@ -67,7 +67,7 @@ const Home = () => {
                 <p><span className={styles.border_text}>excuses</span>.</p>
              </div>
 
-             <div className="">
+             <div className={styles.banner_vector}>
                 <Image src={test} width="600" height="400" className={styles.main_img} alt="" />
              </div>
          </div>

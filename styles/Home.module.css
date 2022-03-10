@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.main .main_content .main_head {
+.main_head {
   font-size: 5rem;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -28,6 +28,11 @@
   color: #fefbf3;
 }
 
+.banner_vector {
+  flex: 1;
+  text-align: right;
+}
+
 .wrapper {
   background: rgb(120, 115, 245);
   background: linear-gradient(
@@ -39,6 +44,11 @@
 
 .container {
   background-color: black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.container_about {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -57,9 +67,6 @@
   background: linear-gradient(to right, #b7dc8e, #7a9fa5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.main_content_about {
 }
 
 .main_content_about > p {
@@ -103,29 +110,112 @@
 
 /* color codes #ff6ec4 pink , #7873f5 purple */
 
-@media (max-width: 900px) {
-  .main .main_content .main_head {
-    font-size: 4rem;
+@media (max-width: 1250px) {
+  .main_text > p {
+    font-size: 6rem;
   }
 
-  .main .main_content .main_text {
-    font-size: 2rem;
+  .main_head {
+    font-size: 3.25rem;
+  }
+
+  .resource_title {
+    font-size: 3rem;
+  }
+
+  .main_content_about > p {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .main_text > p {
+    font-size: 5.5rem;
+  }
+
+  .main_head {
+    font-size: 3.4375rem;
+  }
+
+  .resource_title {
+    font-size: 2.75rem;
+  }
+
+  .main_content_about > p {
+    font-size: 5.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .main_text > p {
+    font-size: 4.5rem;
+  }
+
+  .main_head {
+    font-size: 2.8rem;
+  }
+
+  .resource_title {
+    font-size: 2.25rem;
+  }
+
+  .main_content_about > p {
+    font-size: 4.5rem;
   }
 
   .container {
-    padding: 1rem 5rem;
+    padding: 0.5rem 5rem;
+  }
+
+  .container_about {
+    padding: 0.5rem 5rem;
+    padding-top: 4rem;
   }
 }
 
 @media (max-width: 500px) {
-  .main .main_content .main_head {
-    font-size: 3rem;
+  .main_text > p {
+    font-size: 2.8rem;
   }
-  .main .main_content .main_text {
-    font-size: 1.5rem;
+
+  .main_head {
+    font-size: 1.8rem;
+  }
+
+  .resource_title {
+    font-size: 2rem;
+  }
+
+  .main_content_about > p {
+    font-size: 3.4rem;
   }
 
   .container {
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
+    padding-top: 2rem;
+  }
+
+  .container_about {
+    padding: 0.5rem 2rem;
+    padding-top: 4rem;
+  }
+
+  .main_content_about > span {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    padding-left: 40px;
+  }
+
+  .main_content_about > span:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 0.1px;
+    position: absolute;
+    background: black;
+    left: 0;
+    top: 50%;
   }
 }
